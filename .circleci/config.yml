@@ -5,6 +5,6 @@ jobs:
        - image: circleci/node:7
      steps:
        - checkout
-       - test:
+         test:
          post:
          - test/test.js
